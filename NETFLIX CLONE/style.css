@@ -15,7 +15,7 @@
 .navbar {
   height: 12vh;
   width: 90%;
-  background-color: red;
+
   display: flex;
   justify-content: space-between;
 }
@@ -27,4 +27,12 @@
   display: flex;
   gap: 8px;
   margin: 32px;
+}
+.lang {
+  margin: 2px;
+  padding: 6px;
+}
+.signin {
+  margin: 2px;
+  padding: 6px;
 }
