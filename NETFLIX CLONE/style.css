@@ -7,31 +7,57 @@
   height: 75vh;
   width: 100%;
   position: relative;
-  background-image: url("background_image.jpeg");
+  /*background-image: url("background_image.jpeg");*/
+  background-color: black;
   background-size: cover;
   display: flex;
   justify-content: center;
 }
 .navbar {
-  height: 12vh;
-  width: 90%;
+  height: 80px;
+  width: 80%;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .logo {
-  width: 250px;
+  width: 180px;
   height: auto;
 }
 .login {
   display: flex;
-  gap: 8px;
-  margin: 32px;
+  gap: 12px;
+  align-items: center;
 }
+.language {
+  position: relative;
+  display: flex;
+  align-items: center;
+  display: flex;
+}
+
+.language i {
+  position: absolute;
+  left: 10px;
+  color: white;
+  font-size: 18px;
+}
+
 .lang {
-  margin: 2px;
-  padding: 6px;
+  font-size: 16px;
+  height: 32px;
+  padding: 6px 12px 6px 34px;
+  color: white;
+  font-weight: 400;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.447);
+  border-radius: 4px;
+}
+
+.lang option {
+  color: black;
+  background-color: white;
 }
 .signin {
   border: none;
@@ -39,6 +65,6 @@
   background-color: rgb(220 13 13);
   color: white;
   font-weight: 700;
-  margin: 2px;
+  height: 36px;
   padding: 9px 16px;
 }
