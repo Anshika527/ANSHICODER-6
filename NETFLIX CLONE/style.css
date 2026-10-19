@@ -6,8 +6,9 @@
 .herosec {
   height: 700px;
   width: 100%;
-  position: relative;
-  background-image: url("background_image.jpeg");
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("background_image.jpeg");
   background-color: black;
   background-size: cover;
   display: flex;
@@ -23,9 +24,13 @@
   justify-content: space-between;
   align-items: center;
 }
-.logo {
+
+.netflix {
   width: 180px;
   height: auto;
+  color: rgb(227, 15, 15);
+  font-size: 36px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .login {
   display: flex;
@@ -74,27 +79,65 @@
   color: white;
   margin-top: 140px;
   text-align: center;
-  height: 80px;
-  width: 432px;
+  height: 120px;
+  width: 500px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 32px;
+  font-size: 48px;
   font-weight: 700;
 }
 .cont2 {
   height: 20px;
-  width: 432px;
+  width: 500px;
   color: white;
   text-align: center;
   margin: 8px;
   font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
 }
 .cont3 {
   height: 48px;
-  width: 432px;
+  width: 600px;
   color: white;
   text-align: center;
   margin-top: 16px;
   font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  word-spacing: -2px;
+}
+.starting {
+  color: white;
+  display: flex;
+  width: 600px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.email {
+  width: 300px;
+  height: 60px;
+  border: 1px solid rgba(245, 245, 245, 0.553);
+  border-radius: 4px;
+  padding: 24px 16px 8px;
+  font-size: 16x;
+}
+.email input::placeholder {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.338);
+}
+.email input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.start {
+  color: white;
+  font-size: 16px;
+  height: 60px;
+  width: 200px;
+  background-color: rgb(219, 20, 20);
+  border-radius: 4px;
+  outline: none;
+  border: none;
 }
