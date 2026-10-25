@@ -130,14 +130,40 @@
   border: none;
   outline: none;
   background-color: transparent;
+  color: white;
+  width:100%;
 }
 .start {
   color: white;
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: 500;
   height: 60px;
   width: 200px;
   background-color: rgb(219, 20, 20);
   border-radius: 4px;
   outline: none;
   border: none;
+}
+.footer {
+  height: 800px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.cont4 {
+  color: white;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 40px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.footer .starting {
+  width: 700px;
+}
+.footer .email {
+  width: 600px;
 }
