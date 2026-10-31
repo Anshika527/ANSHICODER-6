@@ -120,7 +120,7 @@
   border: 1px solid rgba(245, 245, 245, 0.553);
   border-radius: 4px;
   padding: 24px 16px 8px;
-  font-size: 16x;
+  font-size: 16px;
 }
 .email input::placeholder {
   font-size: 16px;
@@ -131,7 +131,7 @@
   outline: none;
   background-color: transparent;
   color: white;
-  width:100%;
+  width: 100%;
 }
 .start {
   color: white;
@@ -161,9 +161,43 @@
   font-weight: 400;
   margin-bottom: 10px;
 }
-.footer .starting {
+.footer .account .starting {
   width: 700px;
 }
-.footer .email {
+.footer .account .email {
   width: 600px;
+}
+.helpline {
+  height: auto;
+  width: 80%;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 0.741);
+  margin-top: 60px;
+  margin-bottom: 5px;
+}
+.help-center {
+  margin-top: 60px;
+  width: 80%;
+}
+.help-center ul {
+  width: 100%;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.help-center a {
+  color: rgba(255, 255, 255, 0.741);
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.foot-lang {
+  width: 80%;
+  height: auto;
+  margin-top: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
