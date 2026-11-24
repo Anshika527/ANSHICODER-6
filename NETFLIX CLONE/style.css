@@ -79,15 +79,15 @@
   color: white;
   margin-top: 140px;
   text-align: center;
-  height: 120px;
-  width: 500px;
+  width: 90%;
+  max-width: 500px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 48px;
   font-weight: 700;
 }
 .cont2 {
-  height: 20px;
   width: 500px;
+  max-width: 90%;
   color: white;
   text-align: center;
   margin: 8px;
@@ -96,11 +96,12 @@
   font-weight: bold;
 }
 .cont3 {
-  height: 48px;
-  width: 600px;
+  width: 90%;
+  max-width: 600px;
   color: white;
   text-align: center;
   margin-top: 16px;
+  margin-bottom: 20px;
   font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   word-spacing: -2px;
@@ -108,14 +109,16 @@
 .starting {
   color: white;
   display: flex;
-  width: 600px;
+  width: 90%;
+  max-width: 600px;
   height: 80px;
   justify-content: center;
   align-items: center;
   gap: 10px;
+  margin-top: 10px;
 }
 .email {
-  width: 300px;
+  width: 400px;
   height: 60px;
   border: 1px solid rgba(245, 245, 245, 0.553);
   border-radius: 4px;
@@ -143,6 +146,7 @@
   border-radius: 4px;
   outline: none;
   border: none;
+  flex-shrink: 0;
 }
 .footer {
   height: auto;
@@ -162,11 +166,14 @@
   margin-bottom: 10px;
 }
 .footer .account .starting {
-  width: 700px;
+  width: 100%;
+  max-width: none;
 }
+
 .footer .account .email {
   width: 600px;
 }
+
 .helpline {
   height: auto;
   width: 80%;
@@ -242,4 +249,41 @@
   font-size: 18px;
   margin: 20px 10px 10px 10px;
   color: rgba(245, 245, 245, 0.675);
+}
+.movies {
+  height: auto;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.movies h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+@media (max-width: 600px) {
+  .herosec .starting {
+    flex-direction: column;
+  }
+  .herosec .email {
+    width: 100%;
+  }
+
+  .herosec .start {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .navbar {
+    width: 90%;
+  }
+  .netflix {
+    font-size: 28px;
+  }
+  .login {
+    gap: 6px;
+  }
+  .content {
+    font-size: 32px;
+  }
 }
